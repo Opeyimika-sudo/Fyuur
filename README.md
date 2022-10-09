@@ -5,17 +5,15 @@ Fyyur
 
 Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
 
-Your job is to build out the data models to power the API endpoints for the Fyyur site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.
+This project involved building out the data models to power the API endpoints for the Fyyur site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.
 
 ### Overview
 
-This app is nearly complete. It is only missing one thing… real data! While the views and controllers are defined in this application, it is missing models and model interactions to be able to store retrieve, and update data from a database. By the end of this project, you should have a fully functioning site that is at least capable of doing the following, if not more, using a PostgreSQL database:
+Fyyur is a platform that artists and musical venues can use to find each other, and discover new music shows. This site is capable of doing the following using a PostgreSQL database:
 
-* creating new venues, artists, and creating new shows.
-* searching for venues and artists.
-* learning more about a specific artist or venue.
-
-We want Fyyur to be the next new platform that artists and musical venues can use to find each other, and discover new music shows. Let's make that happen!
+- creating new venues, artists, and creating new shows.
+- searching for venues and artists.
+- learning more about a specific artist or venue.
 
 ### Tech Stack
 
@@ -57,12 +55,12 @@ Overall:
 
 
 Highlight folders:
-* `templates/pages` -- (Already complete.) Defines the pages that are rendered to the site. These templates render views based on data passed into the template’s view, in the controllers defined in `app.py`. These pages successfully represent the data to the user, and are already defined for you.
-* `templates/layouts` -- (Already complete.) Defines the layout that a page can be contained in to define footer and header code for a given page.
-* `templates/forms` -- (Already complete.) Defines the forms used to create new artists, shows, and venues.
-* `app.py` -- (Missing functionality.) Defines routes that match the user’s URL, and controllers which handle data and renders views to the user. This is the main file you will be working on to connect to and manipulate the database and render views with data to the user, based on the URL.
-* Models in `app.py` -- (Missing functionality.) Defines the data models that set up the database tables.
-* `config.py` -- (Missing functionality.) Stores configuration variables and instructions, separate from the main application code. This is where you will need to connect to the database.
+* `templates/pages` -- Defines the pages that are rendered to the site.
+* `templates/layouts` -- Defines the layout that a page can be contained in to define footer and header code for a given page.
+* `templates/forms` -- Defines the forms used to create new artists, shows, and venues.
+* `app.py` -- Defines routes that match the user’s URL, and controllers which handle data and renders views to the user.
+* Models in `app.py` -- Defines the data models that set up the database tables.
+* `config.py` -- Stores configuration variables and instructions, separate from the main application code. This is where you will need to connect to the database.
 
 ### Development Setup
 
