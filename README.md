@@ -15,6 +15,9 @@ Fyyur is a platform that artists and musical venues can use to find each other, 
 - searching for venues and artists.
 - learning more about a specific artist or venue.
 
+### Demo
+![Demo](./fyuur-demo.gif)
+
 ### Tech Stack
 
 - **SQLAlchemy ORM** - ORM library of choice
